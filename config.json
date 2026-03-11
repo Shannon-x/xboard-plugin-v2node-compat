@@ -1,0 +1,22 @@
+{
+    "name": "V2Node 安装助手",
+    "code": "v2node_compat",
+    "version": "1.1.0",
+    "description": "为 Xboard 节点管理增加 V2Node/V2bX 一键安装命令生成，直接在后台节点列表查看和复制安装命令。",
+    "author": "Xboard",
+    "type": "feature",
+    "config": {
+        "install_script_url": {
+            "type": "string",
+            "default": "https://raw.githubusercontent.com/wyx2685/v2node/master/script/install.sh",
+            "label": "安装脚本地址",
+            "description": "V2Node 一键安装脚本的下载地址"
+        },
+        "custom_api_host": {
+            "type": "string",
+            "default": "",
+            "label": "自定义 API 地址",
+            "description": "留空则自动使用系统配置的 app_url。如需指定节点连接的 API 地址可在此填写"
+        }
+    }
+}

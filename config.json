@@ -1,0 +1,16 @@
+{
+    "name": "V2Node 兼容",
+    "code": "v2node_compat",
+    "version": "1.0.0",
+    "description": "兼容 wyx2685/v2board 前端的 V2Node 万能节点管理 API，支持所有协议、传输层、安全层选择和一键安装命令生成。",
+    "author": "Xboard",
+    "type": "feature",
+    "config": {
+        "install_script_url": {
+            "type": "string",
+            "default": "https://raw.githubusercontent.com/wyx2685/v2node/master/script/install.sh",
+            "label": "V2Node 安装脚本地址",
+            "description": "一键安装命令中使用的脚本下载地址"
+        }
+    }
+}
